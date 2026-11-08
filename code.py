@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 moyerek
+# SPDX-License-Identifier: MIT
+
 """BMP slideshow for the Supercon 2026 CircuitPython badge.
 
 Copy this file to CIRCUITPY/code.py and put BMP files in CIRCUITPY/images.

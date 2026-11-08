@@ -13,6 +13,12 @@ A simple, offline CircuitPython image slideshow for the Hackaday Supercon 2026 B
 
 This project assumes compatible CircuitPython is already installed and the badge appears as the `CIRCUITPY` USB drive. It does not include firmware or flashing tools. Compatibility with other panels or firmware builds has not been verified.
 
+### Badge CircuitPython firmware project
+
+The firmware project used for this badge is [Scott Shawcroft's (tannewt) CircuitPython fork, `hackaday_supercon2026` branch](https://github.com/tannewt/circuitpython/tree/hackaday_supercon2026).
+
+The tested badge was flashed with a `.bin` shared on Discord and reported the version above. This link points to the source project; it is not a verified download of that exact binary. The branch may change over time.
+
 ## Install
 
 1. Download this repository using **Code → Download ZIP**, then extract it.
@@ -79,4 +85,12 @@ The custom artwork was created with AI assistance and prepared for this three-co
 
 ## Sharing and contributions
 
-Bug reports should include the board ID, firmware version, display dimensions, and console error, without passwords or other private information. No license grant is included yet; public visibility alone does not grant permission to redistribute or modify the code or artwork.
+Bug reports should include the board ID, firmware version, display dimensions, and console error, without passwords or other private information.
+
+## License
+
+This project uses the [MIT License](LICENSE), a permissive license commonly used for Adafruit CircuitPython code. You may use, modify, and redistribute the code and documentation, including commercially, provided you keep the copyright and license notice. It is provided without warranty.
+
+The included custom artwork is also offered under the same MIT terms, to the extent the project contributors hold rights in it. Third-party names and trademarks remain the property of their owners; this license does not grant trademark rights. The artwork was created with AI assistance, as noted above.
+
+License and copyright headers follow [Adafruit's CircuitPython contribution guidance](https://learn.adafruit.com/contribute-to-circuitpython-with-git-and-github/add-author-and-license-information). Copyright is credited to this project's owner, not Adafruit. Firmware and third-party dependencies retain their own licenses.
