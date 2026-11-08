@@ -1,0 +1,5 @@
+# Time to hold each picture, in seconds (after its screen refresh finishes).
+# Enter one whole number from 1 to 86400. Example: 60 = one minute.
+# Lines starting with # are comments. You may also add a # comment after the number.
+# The display driver may require additional time between refreshes.
+30

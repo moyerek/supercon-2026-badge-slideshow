@@ -1,0 +1,15 @@
+# Board-specific settings and credentials
+settings.toml
+.env
+.env.*
+!.env.example
+secrets.py
+
+# Local tools and generated backups
+.venv/
+__pycache__/
+*.pyc
+*.bin
+*.zip
+.DS_Store
+Thumbs.db
